@@ -1,0 +1,136 @@
+ /* google-fonts-link  */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Poppins:wght@200&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Lato', sans-serif;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ li {
+     list-style-type: none;
+ }
+ 
+ .nav-bar {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+     margin-left: 60px;
+     margin-right: 60px;
+ }
+ 
+ .menu-item {
+     display: flex;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ .menu-list-item {
+     margin-right: 30px;
+ }
+ 
+ .bars {
+     display: none;
+ }
+ 
+ .section-1 {
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 100px;
+ }
+ 
+ .section-1-text>h2 {
+     line-height: 40px;
+     margin-bottom: 20px;
+ }
+ 
+ .section-2-card {
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 100px;
+ }
+ 
+ .sec-2-card1,
+ .sec-2-card2 {
+     width: 265px;
+     height: 305px;
+     padding: 50px;
+     background: #EA2525;
+     box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+ }
+ 
+ .sec-2-card1-img1,
+ .sec-2-card1-img2 {
+     margin-top: 30px;
+     padding: 10px;
+ }
+ 
+ .sec-2-card1-img2>img {
+     padding-bottom: 15px;
+ }
+ 
+ .sec-2-card1-img1,
+ .sec-2-card1-img {
+     background-color: #EA2525;
+ }
+ 
+ .sec-2-card1-img {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .sec-2-card2-item {
+     margin-top: 30px;
+ }
+ 
+ .sec-2-card-2-icon {
+     padding-bottom: 20px;
+     font-size: 26px;
+     font-weight: bold;
+ }
+ 
+ .section-2-card {
+     color: white;
+ }
+ 
+ @media only screen and (max-width:767px) {
+     .menu {
+         display: none;
+     }
+     .bars {
+         display: block;
+     }
+     .section-1,
+     .section-2-card {
+         flex-direction: column;
+     }
+     .section-1-text {
+         margin-left: auto;
+         margin-right: auto;
+         width: 63%;
+     }
+     .section-1-img {
+         margin-left: auto;
+         margin-right: auto;
+         width: 40%;
+         margin-top: 40px;
+     }
+     .section-2-card {
+         margin-left: auto;
+         margin-right: auto;
+         width: 63%;
+     }
+     .sec-2-card1 {
+         margin-bottom: 50px;
+     }
+     .section-1 {
+         padding-top: 40px;
+     }
+ }
