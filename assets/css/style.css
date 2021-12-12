@@ -59,7 +59,7 @@
     }
     
     .menu-link:hover {
-        border-bottom: 1px solid rgb(20, 1, 129);
+        border-bottom: 2px solid rgb(20, 1, 129);
         color: #EA2525;
     }
     
