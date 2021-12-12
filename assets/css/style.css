@@ -63,6 +63,12 @@
         color: #EA2525;
     }
     
+    .contact {
+        background-color: #191B1A;
+        border-radius: 5px;
+        color: white;
+        padding: 3px;
+    }
     .sec-quotes {
         font-weight: bold;
         font-size: 23px;
